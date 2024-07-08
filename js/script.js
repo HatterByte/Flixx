@@ -436,7 +436,6 @@ function init(){
         case '/shows.html':
             console.log('Shows');
             displayPopularShows();
-            displaySwiperShows();
             break;
         case '/movie-details.html':
             console.log('Movie Details');
