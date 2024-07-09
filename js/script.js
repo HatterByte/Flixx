@@ -153,7 +153,6 @@ async function displayMovieDetails(){
         </div>
       </div>`;
       document.querySelector('#movie-details').appendChild(div);
-  console.log(movie);
 }
 
 async function displayTVDetails(){
@@ -426,6 +425,7 @@ function highlightActiveLink(){
 }
 
 function init(){
+  console.log("init called");
   switch(global.currentPage){
       case '/':
       case '/index.html':
