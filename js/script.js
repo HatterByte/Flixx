@@ -449,7 +449,12 @@ function init(){
       case '/search.html':
           console.log('Search');
           search();
-          break;  
+          break;
+      case '/shows':  
+          console.log('Shows');
+          displayPopularShows();
+          displaySwiperShows();
+          break;
   }
 
   highlightActiveLink();
